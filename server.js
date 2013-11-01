@@ -1,6 +1,5 @@
 /*global console*/
-var yetify = require('yetify'),
-    config = require('getconfig'),
+var config = require('getconfig'),
     uuid = require('node-uuid'),
     io = require('socket.io').listen(config.server.port);
 
@@ -92,4 +91,4 @@ io.sockets.on('connection', function (client) {
 });
 
 if (config.uid) process.setuid(config.uid);
-console.log(yetify.logo() + ' -- signal master is running at: http://localhost:' + config.server.port);
+console.log('signal master is running at: http://localhost:' + config.server.port);
