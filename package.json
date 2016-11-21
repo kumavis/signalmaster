@@ -7,13 +7,13 @@
   },
   "description": "Mind-meldification for teams",
   "dependencies": {
-    "async": "0.1.9",
-    "node-uuid": "1.2.0",
+    "async": "2.1.2",
+    "node-uuid": "1.4.7",
     "redis": "",
     "underscore": "",
     "precommit-hook": "",
     "getconfig": "",
-    "yetify": "0.0.1",
+    "yetify": "0.1.0",
     "socket.io": ""
   },
   "main": "server.js"
